@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout}">
+<head>
+  <title>Update Product</title>
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+<section layout:fragment="content" class="container mt-5">
+  <h1>Edit Product</h1>
+  <form th:action="@{/nhanviens/update/{id}(id=${nhanvien.MaNV})}"
+        th:object="${nhanvien}" method="post" class="needs-validation" novalidate enctype="multipart/form-data">
+    <div class="mb-3">
+      <label for="TenNV" class="form-label">Ten NV:</label>
+      <input type="text" th:field="*{TenNV}" class="form-control" id="TenNV"
+             required>
+      <div class="text-danger" th:if="${#fields.hasErrors('TenNV')}"
+           th:errors="*{TenNV}"></div>
+    </div>
+    <div class="mb-3">
+      <label for="Phai" class="form-label">Phai:</label>
+      <input type="text" th:field="*{Phai}" class="form-control" id="Phai"
+             required>
+    </div>
+    <div class="mb-3">
+      <label for="phongban" class="form-label">Phong Ban:</label>
+      <select th:field="*{phongban}" class="form-control" id="phongban">
+        <option th:each="phongban : ${phongbans}"
+                th:value="${phongban.MaPhong}" th:text="${phongban.TenPhong}" th:selected="${phongban.MaPhong ==
+nhanvien.phongban.MaPhong}"></option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="NoiSinh" class="form-label">Noi Sinh:</label>
+      <textarea th:field="*{NoiSinh}" class="form-control"
+                id="NoiSinh" required></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="Luong" class="form-label">Luong:</label>
+      <textarea th:field="*{Luong}" class="form-control"
+                id="Luong" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a th:href="@{/products}" class="btn btn-link">Cancel</a>
+  </form>
+</section>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
