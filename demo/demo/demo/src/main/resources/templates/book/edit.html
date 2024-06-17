@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Book</title>
+    <th:block th:replace="layout::link-css"></th:block>
+    <style>
+        body {
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            font-family: 'Montserrat', sans-serif;
+            color: #ffffff;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h2 {
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .form-label {
+            font-weight: 400;
+        }
+        .btn-primary {
+            background-color: #ff6b6b;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #ff4757;
+        }
+        .form-control:focus {
+            box-shadow: none;
+            border-color: #ff6b6b;
+        }
+        .text-danger {
+            font-size: 0.875em;
+            color: #ff6b6b !important;
+        }
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            font-weight: 600;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: none;
+            border-radius: 15px;
+            padding: 30px;
+        }
+        .card-header {
+            background: none;
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+<th:block th:replace="layout::header"></th:block>
+<div class="container">
+    <h2>Edit Book</h2>
+    <form th:action="@{/books/edit/{id}(id=${book.id})}" th:object="${book}" method="post">
+        <div class="col-6 mb-3">
+            <label for="title">Title:</label>
+            <input type="text" th:field="*{title}" class="form-control" id="title" placeholder="Enter title">
+            <div th:text="${#fields.hasErrors('title') ? #fields.error('title') : ''}" class="text-danger"></div>
+        </div>
+        <div class="col-6 mb-3">
+            <label for="author">Author:</label>
+            <input type="text" th:field="*{author}" class="form-control" id="author" placeholder="Enter author">
+            <div th:text="${#fields.hasErrors('author') ? #fields.error('author') : ''}" class="text-danger"></div>
+        </div>
+        <div class="col-6 mb-3">
+            <label for="price">Price:</label>
+            <input type="text" th:field="*{price}" class="form-control" id="price" placeholder="Enter price">
+            <div th:text="${#fields.hasErrors('price') ? #fields.error('price') : ''}" class="text-danger"></div>
+        </div>
+        <div class="col-6 mb-3">
+            <label for="category">Category:</label>
+            <select th:field="*{category.id}" class="form-control" id="category">
+                <option value="">-- Select Category --</option>
+                <option th:each="category : ${categories}"
+                        th:value="${category.id}"
+                        th:text="${category.name}"></option>
+            </select>
+            <div th:if="${#fields.hasErrors('category.id')}" th:errors="*{category.id}" class="text-danger"></div>
+        </div>
+        <button type="submit" class="btn btn-primary">Update Book</button>
+        <a th:href="@{/books}" class="btn btn-link">Cancel</a>
+    </form>
+</div>
+</body>
+</html>

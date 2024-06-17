@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3820611-0e98-4273-949f-6ef0c4a48ad4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/.idea/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/controller/CustomErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/entity/CustomUserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/repository/IBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/repository/ICategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/repository/IRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/services/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/services/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/services/CustomUserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/utils/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/validator/ValidCategoryIdValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/validator/ValidUserIdValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/validator/ValidUsernameValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/validator/annotation/ValidUserId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/validator/annotation/ValidUsername.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/java/com/hutech/demo/validator/annotation/ValidatorCategoryId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/jquery-3.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/templates/book/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/templates/book/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/templates/book/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/templates/home/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/templates/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo/src/main/resources/templates/user/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/.idea/dinhtrongkhang.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/DinhtrongkhangApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/PhongBanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/controller/NhanVienController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/controller/PhongBanController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/entity/NhanVien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/entity/PhongBan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/repository/IRoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/repository/IUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/repository/NhanVienRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/repository/PhongBanRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/service/NhanVienService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/service/PhongBanService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/java/com/example/dinhtrongkhang/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/static/js/jquery-3.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/templates/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/templates/nhanviens/add-nhanvien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/templates/nhanviens/nhanviens-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/templates/nhanviens/update-nhanvien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/templates/phongbans/add-phongban.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/templates/phongbans/phongbans-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/templates/phongbans/update-phongban.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/templates/users/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/main/resources/templates/users/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/dinhtrongkhang/src/test/java/com/example/dinhtrongkhang/DinhtrongkhangApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/hs_err_pid25424.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/hs_err_pid25680.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/hs_err_pid25980.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/hs_err_pid27316.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/hs_err_pid27916.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/hs_err_pid28676.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/hs_err_pid29204.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/hs_err_pid29532.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/hs_err_pid30820.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/hs_err_pid37088.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/hs_err_pid3868.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/replay_pid25424.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/replay_pid25680.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/replay_pid25980.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/replay_pid27316.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/replay_pid27916.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/replay_pid28676.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dinhtrongkhang/replay_pid29204.log" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2hyEnYs398NGseUyIRzBh5yo3hb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DemoApplication.executor": "Run",
+    "Application.chaythoai.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Admin/Downloads/demo/demo/demo/src/main/resources/templates",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Downloads\demo\demo\demo\src\main\resources\templates" />
+      <recent name="C:\Users\Admin\Downloads\demo\demo\demo\src\main\resources\static" />
+      <recent name="C:\Users\Admin\Downloads\demo\demo\demo\src\main\java\com\hutech\demo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="chaythoai" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.hutech.demo.DemoApplication" />
+      <module name="demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3820611-0e98-4273-949f-6ef0c4a48ad4" name="Changes" comment="" />
+      <created>1718558087134</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718558087134</updated>
+    </task>
+    <servers />
+  </component>
+</project>
